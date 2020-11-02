@@ -1,2 +1,4 @@
 Ohtu viikko 1
 Gitin harjoittelua
+
+git add -p
