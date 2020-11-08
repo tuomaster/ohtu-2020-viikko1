@@ -79,16 +79,4 @@ public class Varasto {
     public String toString() {
         return ("saldo = " + saldo + ", vielä tilaa " + paljonkoMahtuu());
     }
-    
-    public void tyyliRikko() {
-        int a = 5;
-        if(true)
-        {
-            System.out.println(a);
-            if(a < 4) {
-                    System.out.println(a - 4);
-            }
-        }
-        
-    }
 }
