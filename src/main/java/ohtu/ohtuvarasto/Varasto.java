@@ -20,15 +20,15 @@ public class Varasto {
         setTilavuus(tilavuus);
         setAlkuSaldo(alkuSaldo);
     }
-    
+
     private void setTilavuus(double tilavuus) {
-        if(tilavuus > 0.0) {
+        if (tilavuus > 0.0) {
             this.tilavuus = tilavuus;
         }
     }
-    
+
     private void setAlkuSaldo(double alkuSaldo) {
-        if(alkuSaldo > tilavuus) {
+        if (alkuSaldo > tilavuus) {
             this.saldo = tilavuus;
         } else if (alkuSaldo > 0.0) {
             this.saldo = alkuSaldo;
@@ -78,5 +78,17 @@ public class Varasto {
     @Override
     public String toString() {
         return ("saldo = " + saldo + ", vielä tilaa " + paljonkoMahtuu());
+    }
+    
+    public void tyyliRikko() {
+        int a = 5;
+        if(true)
+        {
+            System.out.println(a);
+            if(a < 4) {
+                    System.out.println(a - 4);
+            }
+        }
+        
     }
 }
