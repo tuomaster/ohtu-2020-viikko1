@@ -80,4 +80,22 @@ public class Varasto {
     public String toString() {
         return ("saldo = " + saldo + ", vielä tilaa " + paljonkoMahtuu());
     }
+    
+    public void checkStyleVirheita() {
+        int a = 0;
+        if(2>1) 
+        {
+            if(1<2) {
+                if(true) {
+                  a = 5;
+                }
+            }
+        }
+        
+        for(int i = 0; i < 4; i++) {
+            for(int j = 0; j <3; j++) {
+                        a++;
+            }
+        }
+    }
 }
